@@ -23,3 +23,7 @@ app.controller('crtHome',function($scope){
 app.controller('crtSobre',function($scope){
       $scope.message="Função Controller do Sobre";
 });
+
+function trocaTexto(){
+  $("#txtTeste").html("teste2");
+}
